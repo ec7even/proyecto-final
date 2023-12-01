@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/pexels.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+h1 {
+    font-family: 'Courgette', cursive;
+    font-size: 5rem;
+    color: #ba2323;
+    text-align: center;
+	-webkit-text-stroke: 1px #000000;
+	text-shadow: 2px 4px 4px #9109c2;
+}
+.titulo{
+    background-color: #000000;
+    box-shadow: 0px 0px 32px 0px #17078d inset;
+    border-radius: 10px 11px;
+    margin: 22px;
+    text-align: center;
+}
+
+.menu{
+	list-style: none;
+	padding: 0;
+	background: #000000;
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+    box-shadow: 0px 0px 32px 0px #17078d inset;
+    border-radius: 10px 11px;
+}
+
+.menu li a{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	display: inline-table;
+    margin-top: 3px;
+    margin: 0 7rem;
+}
+
+.menu li{
+	display: inline-block;
+	text-align: center;
+}
+
+.menu li a:hover{
+	background-color: #4c1053;
+    transition: background-color 2s ease 0s;
+    border-radius: 10px 11px;
+    box-shadow: 0px 0px 32px 0px #17078d inset;
+}
+
+header .textos-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contenedor {
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+.galeria-port{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+
+.imagen-port{
+    width: calc(25% - 20px);
+    margin-bottom: 40px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    flex-basis: 40%;
+}
+
+.imagen-port > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.hover-galeria{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transform: scale(0);
+    background: hsla(249, 87%, 15%, 0.753);
+    transition: transform .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hover-galeria img{
+    width: 50px;
+}
+
+.hover-galeria p{
+    color: #fff;
+    overflow: hidden;
+    position: relative;
+    flex-basis: 40%;
+    font-size: x-large;
+    font-family: 'Courgette', cursive;
+    text-align: center;
+    text-decoration: none;
+}
+
+.imagen-port:hover .hover-galeria{
+    transform: scale(1);
+}
+
+.titulo {
+    text-align: center;
+    color: #fff;
+    padding: 2rem;
+}
+
+
+.texto-juego{
+    color: #fff;
+    width: calc(25% - 20px);
+    margin-bottom: 40px;
+    padding: 10px;
+    overflow: hidden;
+    position: relative;
+    flex-basis: 40%;
+    font-size: 22px;
+    font-family: 'Courgette', cursive;
+    box-shadow: 0px 0px 32px 0px #17078d inset;
+    border-radius: 10px 11px;
+	text-shadow: 2px 4px 4px #9109c2;
+    text-align: center;
+}

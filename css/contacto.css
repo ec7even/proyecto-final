@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+header {
+    background-color: #690404;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+section {
+    margin: 20px;
+}
+
+address, form {
+    background-color: #6d0303;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 20px;
+    border: royalblue 1px 2px 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #07afe7;
+}
+p{
+    margin: 30px;
+    color: #fff;
+    text-align: center;
+}
+h2 {
+    color: #fff;
+}

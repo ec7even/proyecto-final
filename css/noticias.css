@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+body {
+    font-family: 'Courgette', cursive;
+    margin: 0;
+    padding: 0;
+    background-color: crimson;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+h4 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+}
+
+a{
+    color: #fff;
+}
+
+section {
+    margin: 40px;
+}
+
+.noticia {
+    border: 3px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.noticia img {
+    max-width: 100%;
+}
+
+.noticia h2 {
+    font-size: 1.5rem;
+}
+
+.noticia p {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.noticia a {
+    text-decoration: none;
+    color: #333;
+    background-color: #f5f5f5;
+    padding: 5px 10px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.noticia a:hover {
+    background-color: #333;
+    color: #fff;
+}
